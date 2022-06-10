@@ -47,3 +47,13 @@ img{
 .Download-button{
 margin: 10% 7% 0 0;
 }
+
+i{
+  color: #ef8172;
+}
+
+.fa{
+
+  padding: 3% 15%;
+  margin-left: 30px;
+}
