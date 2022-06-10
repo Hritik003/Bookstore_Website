@@ -1,0 +1,49 @@
+body{
+  font-family: 'Montserrat';
+}
+
+#title{
+  background-color: #87A7B3;
+}
+
+.store-font{
+    font-size:50px;
+    font-weight: bolder;
+    font-family: 'Sacramento', cursive;
+}
+.Brand-fontstyle{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.nav-item{
+  padding: 0 18px;
+
+}
+
+.nav-link {
+    color: #99C4C8;
+}
+.nav-link:hover{
+    color:#E8F9FD;
+}
+img{
+  size: 30%;
+  width:300px;
+  border-radius: 50%;
+}
+.caption-font{
+  font-family: 'Montserrat-Black';
+  color: white;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.Download-button{
+margin: 10% 7% 0 0;
+}
