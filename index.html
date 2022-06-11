@@ -1,104 +1,138 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>BookStore</title>
-    <link rel="icon" href="H:\Web dev\Bookstore_WEBSITE\images\favicon.png">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="H:\Web dev\Bookstore_WEBSITE\css\styles.css">
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.js">
+<head>
+  <meta charset="utf-8">
+  <title>BookStore</title>
+  <link rel="icon" href="H:\Web dev\Bookstore_WEBSITE\images\favicon.png">
 
-    </script>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="H:\Web dev\Bookstore_WEBSITE\css\styles.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.js">
 
-  </head>
-  <body>
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
 
 
-     <section id="title">
+  <section id="title">
 
     <!-- logo -->
     <section id="brand-logo">
-      <img class ="logo" src="H:\Web dev\Bookstore_WEBSITE\images\favi.png" alt="">
+      <img class="logo" src="H:\Web dev\Bookstore_WEBSITE\images\favi.png" alt="">
     </section>
 
     <!-- Nav Bar -->
     <div class="container-fluid">
-    <nav class="navbar navbar-dark navbar-expand-lg ">
+      <nav class="navbar navbar-dark navbar-expand-lg ">
 
-        <a class="navbar-brand" href="#"> B𝒪𝒪Kish</span><span class="store-font"> store
-        </span> </a>
-        <ul class="navbar-nav" >
-            <li class="nav-item" ><a aria-current="page" class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link " href="#">Pricing</a>
-            </li>
+        <a class="navbar-brand" href="#"> <span class="Brand-fontstyle  ">B𝒪𝒪Kish</span><span class="store-font"> store
+          </span> </a>
+        <ul class="navbar-nav">
+          <li class="nav-item"><a aria-current="page" class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Pricing</a>
+          </li>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Rental</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">1 week</a></li>
-                    <li><a class="dropdown-item" href="#">1 month</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">1 Year</a></li>
-                </ul>
-            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Rental</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">1 week</a></li>
+              <li><a class="dropdown-item" href="#">1 month</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">1 Year</a></li>
+            </ul>
+          </li>
         </ul>
 
-    </nav>
-    <!-- Title -->
-        <div class="row">
-         <div class="col-lg-6">
-         <h1 class="caption-font">The Right place for the Right Book.</h1>
-        <button type="button" class="btn btn-outline-light bt-lg Download-button"><i class="fa-brands fa-apple"></i></i> Download</button>
-         <button type="button" class="btn btn-dark bt-lg Download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+      </nav>
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="caption-font">The Right place for the Right Book.</h1>
+          <button type="button" class="btn btn-outline-light bt-lg Download-button"><i class="fa-brands fa-apple"></i></i> Download</button>
+          <button type="button" class="btn btn-dark bt-lg Download-button"><i class="fa-brands fa-google-play"></i> Download</button>
 
 
-         </div>
-         <div class="col-lg-6">
-         <img src="https://miro.medium.com/max/1400/0*exaIwaHJL_FpO-m-" alt="">
-         </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://miro.medium.com/max/1400/0*exaIwaHJL_FpO-m-" alt="">
+        </div>
 
-       </div>
-     </div>
+      </div>
+    </div>
 
-     </section>
+  </section>
 
-     <section id="features">
-       <div class="row">
-         <div class="feature-box col-lg-4">
-           <i class="icon fa-solid fa-circle-check fa-4x"></i>
-           <h1>Easy to access.</h1>
-           <p>Search for any book and there you go! Voila</p>
-         </div>
-         <div class="feature-box col-lg-4 ">
-           <i class="icon fa-solid fa-bullseye fa-4x"></i>
-           <h1>Unlimited Genres.</h1>
-           <p>From Fiction to Fairy Tales, available to you!</p>
+  <section id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-circle-check fa-4x"></i>
+        <h1>Easy to access.</h1>
+        <p>Just name the Book and there y'go! <s></s>Voila</p>
+      </div>
+      <div class="feature-box col-lg-4 ">
+        <i class="icon fa-solid fa-bullseye fa-4x"></i>
+        <h1>Unlimited Genres.</h1>
+        <p>From Fiction to Fairy Tales, available to you!</p>
 
-         </div>
-         <div class="feature-box col-lg-4 ">
-           <i class="icon fa-solid fa-heart fa-4x"></i>
-           <h1>Guranteed Work.</h1>
-           <p>Find the love of your favorite Books or your money back😉</p>
-         </div>
+      </div>
+      <div class="feature-box col-lg-4 ">
+        <i class="icon fa-solid fa-heart fa-4x"></i>
+        <h1>Guranteed Work.</h1>
+        <p>Find the love of your favorite Books or your money back😉</p>
+      </div>
 
-       </div>
+    </div>
 
-     </section>
+  </section>
+
+
+  <!-- testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonials-slide" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I'd suggest others This Bookstore is just Marvelous!  </h2>
+          <img src="H:\Web dev\Bookstore_WEBSITE\images\chethan.png" class="chethan" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="H:\Web dev\Bookstore_WEBSITE\images\stanlee.png" class="stanlee" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="H:\Web dev\Bookstore_WEBSITE\images\stephen king.png" class="stephen" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+  </section>
 
 
 
-  </body>
+
+</body>
+
 </html>

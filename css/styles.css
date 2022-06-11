@@ -41,7 +41,7 @@ img{
   line-height: 1.5;
 }
 .container-fluid{
-  padding: 5% 15%;
+  padding: 5%  15%;
   padding-bottom: 6%;
 }
 
@@ -67,6 +67,9 @@ h1{
 p{
   font-family: 'Montserrat';
   font-size: 15px;
+}
+#testimonials{
+  background-color:  #87A7B3;
 }
 
 .icon{
