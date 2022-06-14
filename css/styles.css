@@ -1,6 +1,20 @@
 body{
   font-family: 'Montserrat';
 }
+.Brand-fontstyle{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+
+.card-header{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #87A7B3;
+}
+
 
 #title{
   background-color: #87A7B3;
@@ -11,11 +25,7 @@ body{
     font-weight: bolder;
     font-family: 'Sacramento', cursive;
 }
-.Brand-fontstyle{
-    font-family: 'Pacifico', cursive;
-    font-size: 30px;
-    font-weight: 200;
-}
+
 
 .nav-item{
   padding: 0 18px;
@@ -33,6 +43,17 @@ img{
   width:300px;
   border-radius: 50%;
 }
+.t-font{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3rem;
+  text-align: center;
+  margin: 20px 15% 20px 10%;
+  color: white;
+  font-weight: bolder;
+
+}
+
 .caption-font{
   font-family: 'Montserrat-Black';
   color: white;
@@ -52,6 +73,9 @@ margin: 10% 7% 0 0;
 #features{
   padding: 7% 15%;
 }
+#pricing{
+  padding: 7% 15%;
+}
 
 .feature-box{
   text-align: center;
@@ -59,17 +83,38 @@ margin: 10% 7% 0 0;
 }
 h1{
   font-family: 'Montserrat-Black';
-  font-weight: bold;
+  font-weight: 900;
   font-size: 1.5rem;
 
 
 }
+
+
+
+
+h2{
+  font-weight:bolder;
+}
+
 p{
   font-family: 'Montserrat';
   font-size: 15px;
 }
 #testimonials{
   background-color:  #87A7B3;
+  height:400px;
+  margin-bottom: 100px;
+font-family: 'Ubuntu'
+}
+.testimonials-image{
+  text-align: center;
+  width:10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
 }
 
 .icon{
