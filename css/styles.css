@@ -14,11 +14,13 @@ body{
   padding-bottom: 1rem;
   background-color: #87A7B3;
 }
-
-
-#title{
-  background-color: #87A7B3;
+.footer-icon{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: black;
 }
+
+
 
 .store-font{
     font-size:50px;
@@ -73,9 +75,18 @@ margin: 10% 7% 0 0;
 #features{
   padding: 7% 15%;
 }
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+  line-height: 40px;
+}
 #pricing{
   padding: 7% 15%;
 }
+#title{
+  background-color: #87A7B3;
+}
+
 
 .feature-box{
   text-align: center;
@@ -88,9 +99,6 @@ h1{
 
 
 }
-
-
-
 
 h2{
   font-weight:bolder;
